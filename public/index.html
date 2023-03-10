@@ -43,19 +43,6 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <!--/login-->
-    <script>
-      $(document).ready(function () {
-        $(".button-log a").click(function () {
-          $(".overlay-login").fadeToggle(200);
-          $(this).toggleClass("btn-open").toggleClass("btn-close");
-        });
-      });
-      $(".overlay-close1").on("click", function () {
-        $(".overlay-login").fadeToggle(200);
-        $(".button-log a").toggleClass("btn-open").toggleClass("btn-close");
-        open = false;
-      });
-    </script>
     <!--//login-->
     <script>
       // optional
@@ -64,7 +51,7 @@
       });
     </script>
     <!-- cart-js -->
-    <script src="assets/js/minicart.js"></script>
+    <script src="./assets/js/minicart.js"></script>
     <script>
       transmitv.render();
 

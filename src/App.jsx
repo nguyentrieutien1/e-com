@@ -183,7 +183,7 @@ export default function App() {
           <div style={{margin: '8px auto', display: 'block', textAlign: 'center'}}>
             {/*-728x90-*/}
           </div>
-          <div className="welcome-grids row mt-5">
+          <div className="welcome-grids row mt-5" style={{justifyContent: "center"}}>
             <div className="col-lg-2 col-md-4 col-6 welcome-image">
               <div className="boxhny13">
                 <a href="ecommerce.html">
@@ -221,28 +221,6 @@ export default function App() {
               <div className="boxhny13">
                 <a href="ecommerce.html">
                   <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/subwoofer.png" className="img-fluid" alt="" />
-                  <div className="boxhny-content">
-                    <h3 className="title">Product
-                    </h3></div>
-                </a>
-              </div>
-              <h4><a href="ecommerce.html">Hand Bags</a></h4>
-            </div>
-            <div className="col-lg-2 col-md-4 col-6 welcome-image">
-              <div className="boxhny13">
-                <a href="ecommerce.html">
-                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/amtran1.jpg" className="img-fluid" alt="" />
-                  <div className="boxhny-content">
-                    <h3 className="title">Product
-                    </h3></div>
-                </a>
-              </div>
-              <h4><a href="ecommerce.html">Hand Bags</a></h4>
-            </div>
-            <div className="col-lg-2 col-md-4 col-6 welcome-image">
-              <div className="boxhny13">
-                <a href="ecommerce.html">
-                  <img src="https://assets.nicepagecdn.com/090aae66/4287814/images/mixer.png" className="img-fluid" alt="" />
                   <div className="boxhny-content">
                     <h3 className="title">Product
                     </h3></div>
